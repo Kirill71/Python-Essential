@@ -1,5 +1,4 @@
-from Encapsulation import Avto
-
+from Encapsulation.additionalTask import Avto
 
 class AvtoSaloon:
 
@@ -11,7 +10,7 @@ class AvtoSaloon:
             self.__car_for_sales_list.append(car)
 
     def sale_car(self, car):
-        if car in self.__car_for_sales_list and  isinstance(car, Avto.Avto):
+        if car in self.__car_for_sales_list and isinstance(car, Avto.Avto):
             self.__car_for_sales_list.remove(car)
 
     def __repr__(self):

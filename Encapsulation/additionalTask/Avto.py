@@ -33,5 +33,3 @@ class Avto:
 
     def __str__(self):
         return "Car: mark: {}, model: {}, price: {}".format(self._mark, self._model, self._price)
-
-
