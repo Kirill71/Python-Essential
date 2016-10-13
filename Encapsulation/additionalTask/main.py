@@ -10,6 +10,4 @@ def main():
     saloon.sale_car(Avto.Avto("Lada", "Kalina", 10))
     print(saloon)
 
-
-
 main()
