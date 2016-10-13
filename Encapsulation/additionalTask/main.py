@@ -1,9 +1,6 @@
 from Encapsulation.additionalTask import AvtoSaloon, Avto
 
 
-
-
-
 def main():
     saloon = AvtoSaloon.AvtoSaloon()
     saloon.add_car(Avto.Avto("BMW", "X5", 1000000))
@@ -12,8 +9,5 @@ def main():
     print(saloon)
     saloon.sale_car(Avto.Avto("Lada", "Kalina", 10))
     print(saloon)
-
-
-
 
 main()
