@@ -15,10 +15,8 @@ class Button(Rectangle, Clickable):
 
 
 def main():
-    print(GraphicalObject.mro())
-    print(Rectangle.mro())
-    print(Clickable.mro())
-    print(Button.mro())
+    for cls in [GraphicalObject, Rectangle, Clickable, Button]:
+        print(cls.mro())
 
 if __name__ == '__main__':
     main()
