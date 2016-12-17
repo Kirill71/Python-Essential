@@ -5,9 +5,9 @@ class MyException(Exception):
         print(value)
 
 
-
 def raise_exception():
         raise MyException("bla-bla-bla")
+
 
 def main():
     try:
